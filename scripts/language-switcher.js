@@ -1,6 +1,6 @@
 const italianBio = `<h1>Biografia</h1>
 <p>Il baritono tedesco-americano Samuel Berlad ha conseguito il Master in Opera con il Prof. Thomas Heyer nel 2012 presso la Hochschule für Musik und Darstellende Kunst di Francoforte, dopo aver conseguito il diploma in pedagogia vocale (Wiesbadener Musikakademie).</p>
-<p>Attualmente studia con Rosemarie Danziger e Sherman Lowe.</p>
+<p>Attualmente studia con Rosemarie Danziger e Leah Frey-Rabine.</p>
 
 <p>Berlad è stato selezionato come giovane artista di Britten-Pears per il 2016.</p>
 <p>Ha partecipato a masterclassi con Rudolf Piernay, Mark Padmore, Helmut Deutsch, Roger Vignoles, Malcolm Martineau e Thomas Quasthoff.</p>
@@ -13,7 +13,7 @@ Il repertorio concertistico di Mr. Berlad comprende importanti oratori e canzoni
 const germanBio = `
 <h1>Biografie</h1>
 <p>Der deutsch-amerikanische Bariton Samuel Berlad erhielt nach seinem Studium der Gesangspädagogik (Wiesbadener Musikakademie) 2012 an der Hochschule für Musik und Darstellende Kunst in Frankfurt am Main seinen Master-Abschluss im Fach Oper bei Prof. Thomas Heyer.</p>
-<p>Derzeit studiert er bei Rosemarie Danziger und Sherman Lowe.</p>
+<p>Derzeit studiert er bei Rosemarie Danziger und Leah Frey-Rabine.</p>
 
 <p>Samuel wurde als Young Artist der Britten-Pears Stiftung für 2016 ausgewählt.</p>
 
@@ -27,7 +27,7 @@ Sein kürzliches Rezital von Schuberts "Die Schöne Müllerin" mit Jonathan Zak 
 const englishBio = `
 <h1>Biography</h1>
 <p>The German-American baritone Samuel Berlad earned his Master's degree in opera with Prof. Thomas Heyer in 2012 from the Hochschule für Musik und Darstellende Kunst in Frankfurt, after completing a diploma in vocal pedagogy (Wiesbadener Musikakademie). <br>
-Currently, he is working with Rosemarie Danziger and Sherman Lowe. 
+Currently, he is working with Rosemarie Danziger and Leah Frey-Rabine. 
 <br>
 <br>
 Mr. Berlad was selected as a Britten-Pears Young Artist for 2016.  
@@ -47,7 +47,7 @@ const frenchBio = `
 <p>
 Le baryton germano-américain Samuel Berlad a obtenu sa maîtrise en opéra avec le professeur Thomas Heyer à la Hochschule für Musik und Darstellende Kunst de Francfort en 2012, après avoir obtenu un diplôme en pédagogie vocale (Académie de musique de Wiesbaden).</p>
 <p>
-Il étudie actuellement avec Rosemarie Danziger et Sherman Lowe.</p>
+Il étudie actuellement avec Rosemarie Danziger et Leah Frey-Rabine.</p>
 <p>
 Samuel a été sélectionné comme Jeune Artiste de la Fondation Britten-Pears pour 2016.</p>
 <p>
@@ -62,7 +62,7 @@ Le répertoire de concert de M. Berlad comprend d'importants oratorios et des ch
 const hebrewBio = `<h1 class="rtl">קורות חיים</h1>
 <p class="rtl">
 הבריטון הגרמני-אמריקני שמואל ברלד זכה בתואר שני באופרה אצל פרופ‘ תומאס הייר בשנת 2012, מהאוניברסיטה למוסיקה ואומנויות הבמה בפרנקפורט, לאחר שסיים את לימודי התואר בפדגוגי הקולית באקדמיה למוסיקה בוויסבאדן.
-נכון לעכשיו הוא עובד עם רוזמרי דנציגר ושרמן לואי.
+נכון לעכשיו הוא עובד עם רוזמרי דנציגר לאה פריי-רבין.
 <br>
 <br>
 מר ברלאד נבחר לאמן צעיר של קרן בריטן-פירס לשנת 2016.

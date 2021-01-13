@@ -18,11 +18,6 @@
         gtag('config', 'UA-157564194-1');
     </script>
 
-	<link rel=stylesheet href=gallery/css/general.css type=text/css />
-    <link rel=stylesheet href=s-gallery/css/mibreitGallery.css type=text/css />
-    <script src="s-gallery/jquery-3.5.1.min.js"></script>
-    <script src="s-gallery/mibreitGallery.min.js"></script>
-	<script>$(document).ready(function(){mibreitGallery.createGallery({slideshowContainer:"#full-gallery",thumbviewContainer:".mibreit-thumbview",titleContainer:"#full-gallery-title",allowFullscreen:!0,preloadLeftNr:2,preloadRightNr:3})})</script>
     
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
@@ -36,10 +31,9 @@
     
     <!--jQuery-->
     <script
-        src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous">
-    </script>
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     
     <!--Lightbox
     <link rel="stylesheet" href="styles/lightbox.min.css">
@@ -103,7 +97,7 @@
             <h1>Biography</h1>
             <p>
                 The German-American baritone Samuel Berlad earned his Master's degree in opera with Prof. Thomas Heyer in 2012 from the Hochschule für Musik und Darstellende Kunst in Frankfurt, after completing a diploma in vocal pedagogy (Wiesbadener Musikakademie). <br>
-                Currently, he is working with Rosemarie Danziger and Leah Frey-Rabine. 
+                Currently, he is working with Rosemarie Danziger and Sherman Lowe. 
                 <br>
                 <br>
                 Mr. Berlad was selected as a Britten-Pears Young Artist for 2016.  
@@ -132,68 +126,26 @@
     </section>
 
     <section class="gallery-section">
-		<h1>Gallery</h1>
-        <div id=container>
-		  <div class=framed-background>
-			<div class=framed-background__border></div>
-			<div class=flex-vertical>
-			  <div id=content>
-				<div id="carbon-block" style="margin-bottom:30px"></div>
-			 
-				<div id=full-gallery class=content-slideshow>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/dg1.jpg"  alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/dg2.jpg" alt=Fantasia width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement>
-					<img src="images/gallery/dg3.jpg" title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/dg4.jpg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/flute1.jpg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/flute2.jpg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/lucretia1.jpeg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/flute3.jpg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  <div class=mibreit-imageElement style=opacity:0>
-					<img src="images/gallery/flute4.jpg" data-title="" alt="" width=1280 height=853 />
-				  </div>
-				  
-				</div>
-				<div class=mibreit-thumbview>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/dg1.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/dg2.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/dg3.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/dg4.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/flute1.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/flute2.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/lucretia1.jpeg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/flute3.jpg" width=100 height=100 /> </div>
-				  <div class=mibreit-thumbElement> <img src="images/gallery/flute4.jpg" width=100 height=100 /> </div>
-				  
-				</div>
-				<h3 id=full-gallery-title class=mibreit-slideshow-title></h3>
-			  </div>
-			</div>
-			<div class=framed-background__border></div>
-		  </div>
-		</div>
+        <div class="gallery-wrapper">
+            <h1>Gallery</h1>
+            <div class="gallery">
+                <a href="images/gallery/flute1.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/flute1_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/flute2.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/flute2_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/flute3.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/flute3_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/flute4.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/flute4_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/dg1.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/dg1_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/dg2.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/dg2_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/dg3.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/dg3_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/dg4.jpg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/dg4_tn.jpg" alt="" srcset=""></a>
+                <a href="images/gallery/lucretia1.jpeg" data-fancybox="stagepics"><img src="images/gallery/thumbnails/lucretia1_tn.jpg" alt="" srcset=""></a>
+            </div>
+        </div>
     </section>
 
     <section class="video-section">
         <div class="video-wrapper">
             <h1>Media</h1>
-            <iframe class="soundcloud" width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/964208404&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <iframe class="soundcloud" width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869612020&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <iframe class="soundcloud" width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869612032&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <iframe class="soundcloud" width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/437442444&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             <iframe class="soundcloud" width="80%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/421269819&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -220,6 +172,7 @@
         </div>
     </div>
         
+    
 </body>
 
 <script src="scripts/language-switcher.js"></script>
